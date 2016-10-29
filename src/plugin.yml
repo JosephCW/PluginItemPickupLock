@@ -1,0 +1,21 @@
+name: ItemPickupLock
+version: 1.0
+description: Prevents players from picking up items.
+author: JosephCW
+website: http://www.github.com/josephcw/PluginItemPickupLock
+main: com.github._josephcw.itempickuplock.ItemPickupLock
+
+commands:
+  itempickuplock:
+    description: Toggle lock on player item pickup.
+    aliases: [ilock, itemlock, pickuplock, ipl]
+    permission: itempickuplock.toggle
+    usage: /<command> <username>
+permissions:
+  itempickuplock.*:
+    default: op
+    description: Ability to toggle item lock for a player
+    children:
+      itempickuplock.toggle: true
+  itempickuplock.toggle:
+    description: Ability to toggle item lock for a player
