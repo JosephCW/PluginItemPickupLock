@@ -8,7 +8,7 @@ main: com.github._josephcw.itempickuplock.ItemPickupLock
 commands:
   itempickuplock:
     description: Toggle lock on player item pickup.
-    aliases: [ilock, itemlock, pickuplock, ipl]
+    aliases: [ilock, itemlock, pickuplock, ipl, il]
     permission: itempickuplock.toggle
     usage: /<command> <username>
 permissions:
