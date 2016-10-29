@@ -24,7 +24,7 @@ public class ItemPickupLock extends JavaPlugin implements Listener {
 	 */
 	
 	private List<Player> lockedItemPlayers;
-	private final String commandUsage = ChatColor.RED + "Command Usage: //il" + "CUSED" + " <player>";
+	private final String commandUsage = ChatColor.RED + "Command Usage: /" + "CUSED" + " <player>";
 	
 	@Override
 	public void onEnable() {
